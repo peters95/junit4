@@ -5,6 +5,7 @@
     <groupId>junit</groupId>
     <artifactId>junit</artifactId>
     <version>4.14-SNAPSHOT</version>
+
     <name>JUnit</name>
     <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
     <url>http://junit.org</url>
@@ -20,6 +21,7 @@
             <distribution>repo</distribution>
         </license>
     </licenses>
+
     <developers>
         <developer>
             <id>dsaff</id>
@@ -274,7 +276,6 @@
                 This plugin can package the main artifact's sources (src/main/java)
                 in to jar archive. See target/junit-*-sources.jar.
                 -->
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.2.1</version>
             </plugin>
@@ -343,7 +344,6 @@
                 </dependencies>
             </plugin>
             <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
@@ -491,7 +491,6 @@
             <build>
                 <plugins>
                     <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-source-plugin</artifactId>
                         <version>3.2.1</version>
                         <executions>
