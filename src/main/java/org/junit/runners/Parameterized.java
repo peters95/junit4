@@ -122,7 +122,7 @@ import org.junit.runners.parameterized.TestWithParameters;
  * }
  * </pre>
  * 
- * <h3>Tests with single parameter</h3>
+ * Tests with single parameter
  * <p>
  * If your test needs a single parameter only, you don't have to wrap it with an
  * array. Instead you can provide an <code>Iterable</code> or an array of
@@ -142,7 +142,7 @@ import org.junit.runners.parameterized.TestWithParameters;
  * }
  * </pre>
  *
- * <h3>Executing code before/after executing tests for specific parameters</h3>
+ * Executing code before/after executing tests for specific parameters
  * <p>
  * If your test needs to perform some preparation or cleanup based on the
  * parameters, this can be done by adding public static methods annotated with
@@ -155,7 +155,7 @@ import org.junit.runners.parameterized.TestWithParameters;
  * }
  * </pre>
  *
- * <h3>Create different runners</h3>
+ * Create different runners
  * <p>
  * By default the {@code Parameterized} runner creates a slightly modified
  * {@link BlockJUnit4ClassRunner} for each set of parameters. You can build an
@@ -185,7 +185,7 @@ import org.junit.runners.parameterized.TestWithParameters;
  * }
  * </pre>
  *
- * <h3>Avoid creating parameters</h3>
+ * Avoid creating parameters
  * <p>With {@link org.junit.Assume assumptions} you can dynamically skip tests.
  * Assumptions are also supported by the <code>&#064;Parameters</code> method.
  * Creating parameters is stopped when the assumption fails and none of the

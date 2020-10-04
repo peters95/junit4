@@ -16,7 +16,7 @@ import org.junit.runners.model.Statement;
  * The {@code ExpectedException} rule allows you to verify that your code
  * throws a specific exception.
  *
- * <h3>Usage</h3>
+ * Usage
  *
  * <pre> public class SimpleExpectedExceptionTest {
  *     &#064;Rule
@@ -71,7 +71,7 @@ import org.junit.runners.model.Statement;
  * <pre> &#064;Rule(order = Integer.MAX_VALUE)
  * public ExpectedException thrown = ExpectedException.none();</pre>
  *
- * <h3>AssumptionViolatedExceptions</h3>
+ * AssumptionViolatedExceptions
  * <p>JUnit uses {@link AssumptionViolatedException}s for indicating that a test
  * provides no useful information. (See {@link org.junit.Assume} for more
  * information.) You have to call {@code assume} methods before you set
@@ -85,7 +85,7 @@ import org.junit.runners.model.Statement;
  *     thrown.expect(NullPointerException.class);
  * }</pre>
  *
- * <h3>AssertionErrors</h3>
+ * AssertionErrors
  *
  * <p>JUnit uses {@link AssertionError}s for indicating that a test is failing. You
  * have to call {@code assert} methods before you set expectations of the
@@ -98,7 +98,7 @@ import org.junit.runners.model.Statement;
  *     thrown.expect(NullPointerException.class);
  * }</pre>
  *
- * <h3>Missing Exceptions</h3>
+ * Missing Exceptions
  * <p>By default missing exceptions are reported with an error message
  * like "Expected test to throw an instance of foo". You can configure a different
  * message by means of {@link #reportMissingExceptionWithMessage(String)}. You

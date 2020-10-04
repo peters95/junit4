@@ -23,7 +23,7 @@ import java.lang.annotation.Target;
  * after Rules defined by methods, i.e. the Statements returned by the former will
  * be executed around those returned by the latter.
  *
- * <h3>Usage</h3>
+ * Usage
  * <p>
  * For example, here is a test class that creates a temporary folder before
  * each test method, and deletes it after each:
@@ -63,7 +63,7 @@ import java.lang.annotation.Target;
  * For more information and more examples, see
  * {@link org.junit.rules.TestRule}.
  *
- * <h3>Ordering</h3>
+ * Ordering
  * <p>
  * You can use {@link #order()} if you want to have control over the order in
  * which the Rules are applied.
